@@ -5,4 +5,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   base: '/test-vue-vite-repo/',
   plugins: [vue()],
+  server: {
+    port: 8080
+  }
 })
