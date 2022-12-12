@@ -20,12 +20,17 @@
 </script>
 
 <template>
-  <component :is="currerntView"></component>
+  <transition name="slide-left">
+    <component :is="currentView"></component>
+  </transition>
 </template>
 
 <style lang="scss">
 @use './styles/abstracts' as *;
 @use './styles/resets.scss';
 
+#app{
+  height: 100vh;
+}
 
 </style>
