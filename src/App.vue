@@ -3,7 +3,7 @@
 
 <template>
   <h1>HELLO WORLD</h1>
-  <img src="pixelpfp.jpg">
+  <img src="/images/pixelpfp.jpg">
 </template>
 
 <style lang="scss">
