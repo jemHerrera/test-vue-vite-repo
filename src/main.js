@@ -1,4 +1,4 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import MotivComponent from './MotivComponent.vue'
 
-createApp(App).mount('#app')
+createApp(MotivComponent).mount('#motiv-component')
